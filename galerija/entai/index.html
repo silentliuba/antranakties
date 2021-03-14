@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html><head>
+	
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-E07HZJ1QKC"></script>
+	<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E07HZJ1QKC');
+  </script>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Antra nakties</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="Viktoras" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="/css/main.css?v=1.3.2" />
+    <link rel="stylesheet" type="text/css" href="/css/component.css?v=0.0.9" />
+		<link rel="stylesheet" type="text/css" href="/css/all.css" />
+		<link rel="stylesheet" type="text/css" href="/css/custom.css" />
+		
+		
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+	<script src="/js/debouncedresize.js"></script>
+	<script src="/js/modernizr.custom.js"></script>
+	<script src="/js/galerija.js"></script>
+
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<a class="navbar-brand" href="/"><img src="/img/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse space-between" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+
+      
+        <a class="nav-item nav-link" href="/apie/" title="">
+          Apie
+        </a>
+      
+        <a class="nav-item nav-link" href="/galerija/" title="">
+          Foto
+        </a>
+      
+        <a class="nav-item nav-link" href="/piesiniai/" title="">
+          Piešta
+        </a>
+      
+        <a class="nav-item nav-link" href="/muzika/" title="">
+          Garsai
+        </a>
+      
+        <a class="nav-item nav-link" href="/tekstai/" title="">
+          Tekstai
+        </a>
+      
+        <a class="nav-item nav-link" href="/kontaktai/" title="">
+          Kontaktai
+        </a>
+      
+    </div>
+    <div id='icons'>
+        <ul class="header-icons list-inline">
+      
+        <li><a href="https://urvai.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp"></i></a></li>
+      
+        <li><a href="https://www.mixcloud.com/silentmargins/" target="_blank"><i class="fab fa-mixcloud"></i></a></li>
+      
+        <li><a href="https://www.instagram.com/mollythec/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      
+        <li><a href="https://www.etsy.com/shop/AnnieIsOKLT" target="_blank"><i class="fab fa-etsy"></i></a></li>
+      
+    </ul>
+    </div>
+  </div>
+</nav>
+<div id="content">
+<style media="screen">
+  #mygtukas {
+    display: none;
+  }
+  #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgba(100,100,100,0.6);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+</style>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Viršun</button>
+	<h3 class="font-tertiary submenu">Galerija</h3>
+	<div class="submenu">
+		
+		
+		
+			<a class="submenu-links" href="/galerija/cydonia/" title="Cydonia" style="">
+				Cydonia
+			</a>
+		
+			<a class="submenu-links" href="/galerija/homo_ludens/" title="Homo ludens" style="">
+				Homo ludens
+			</a>
+		
+			<a class="submenu-links" href="/galerija/plojimai/" title="Plojimai" style="">
+				Plojimai
+			</a>
+		
+			<a class="submenu-links" href="/galerija/gegute/" title="Gegutės lizdas" style="">
+				Gegutės lizdas
+			</a>
+		
+			<a class="submenu-links" href="/galerija/entai/" title="Entai" style=" font-weight:600;">
+				Entai
+			</a>
+		
+			<a class="submenu-links" href="/galerija/polis/" title="Polis" style="">
+				Polis
+			</a>
+		
+			<a class="submenu-links" href="/galerija/analog/" title="Analog" style="">
+				Analog
+			</a>
+		
+	</div>
+  <script>
+  
+  var mybutton = document.getElementById("myBtn");
+
+  
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+<ul id="og-grid" class="og-grid">
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/1.jpg"
+        data-title="-------------2621-------------"
+        data-mediums="2001"
+        data-dimensions=""
+        data-description="595 kha">
+        <img class="d-none d-sm-block" src="/img/entai/1-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/1.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/2.jpg"
+        data-title="-------------997-------------"
+        data-mediums="2002"
+        data-dimensions=""
+        data-description="1.13 Mha">
+        <img class="d-none d-sm-block" src="/img/entai/2-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/2.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/3.jpg"
+        data-title="-------------991-------------"
+        data-mediums="2003"
+        data-dimensions=""
+        data-description="1.03 Mha">
+        <img class="d-none d-sm-block" src="/img/entai/3-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/3.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/4.jpg"
+        data-title="-------------1039-------------"
+        data-mediums="2004"
+        data-dimensions=""
+        data-description="1.56 Mha">
+        <img class="d-none d-sm-block" src="/img/entai/4-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/4.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/5.jpg"
+        data-title="-------------389-------------"
+        data-mediums="2005"
+        data-dimensions=""
+        data-description="1.41 Mha">
+        <img class="d-none d-sm-block" src="/img/entai/5-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/5.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/6.jpg"
+        data-title="-------------1721-------------"
+        data-mediums="2006"
+        data-dimensions=""
+        data-description="1.38 Mha">
+        <img class="d-none d-sm-block" src="/img/entai/6-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/6.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/7.jpg"
+        data-title="-------------1259-------------"
+        data-mediums="2007"
+        data-dimensions=""
+        data-description="992 kha">
+        <img class="d-none d-sm-block" src="/img/entai/7-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/7.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/8.jpg"
+        data-title="-------------1123-------------"
+        data-mediums="2008"
+        data-dimensions=""
+        data-description="978 kha">
+        <img class="d-none d-sm-block" src="/img/entai/8-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/8.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/9.jpg"
+        data-title="-------------1879-------------"
+        data-mediums="2009"
+        data-dimensions=""
+        data-description="725 kha">
+        <img class="d-none d-sm-block" src="/img/entai/9-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/9.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/10.jpg"
+        data-title="-------------499-------------"
+        data-mediums="2010"
+        data-dimensions=""
+        data-description="1.01 Mha">
+        <img class="d-none d-sm-block" src="/img/entai/10-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/10.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/11.jpg"
+        data-title="-------------2311-------------"
+        data-mediums="2011"
+        data-dimensions=""
+        data-description="973 kha">
+        <img class="d-none d-sm-block" src="/img/entai/11-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/11.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/12.jpg"
+        data-title="-------------2003-------------"
+        data-mediums="2012"
+        data-dimensions=""
+        data-description="1.61 Mha">
+        <img class="d-none d-sm-block" src="/img/entai/12-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/12.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/13.jpg"
+        data-title="-------------2027-------------"
+        data-mediums="2013"
+        data-dimensions=""
+        data-description="1.99 Mha">
+        <img class="d-none d-sm-block" src="/img/entai/13-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/13.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/14.jpg"
+        data-title="-------------1999-------------"
+        data-mediums="2014"
+        data-dimensions=""
+        data-description="1.67 Mha">
+        <img class="d-none d-sm-block" src="/img/entai/14-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/14.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/15.jpg"
+        data-title="-------------1097-------------"
+        data-mediums="2015"
+        data-dimensions=""
+        data-description="1.68 Mha">
+        <img class="d-none d-sm-block" src="/img/entai/15-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/15.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/16.jpg"
+        data-title="-------------1429-------------"
+        data-mediums="2016"
+        data-dimensions=""
+        data-description="1.93 Mha">
+        <img class="d-none d-sm-block" src="/img/entai/16-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/16.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/17.jpg"
+        data-title="-------------1583-------------"
+        data-mediums="2017"
+        data-dimensions=""
+        data-description="2.76 Mha">
+        <img class="d-none d-sm-block" src="/img/entai/17-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/17.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/18.jpg"
+        data-title="-------------503-------------"
+        data-mediums="2018"
+        data-dimensions=""
+        data-description="2.15 Mha">
+        <img class="d-none d-sm-block" src="/img/entai/18-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/18.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/19.jpg"
+        data-title="-------------251-------------"
+        data-mediums="2019"
+        data-dimensions=""
+        data-description="2.36 Mha">
+        <img class="d-none d-sm-block" src="/img/entai/19-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/19.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/20.jpg"
+        data-title="-------------7-------------"
+        data-mediums="2020"
+        data-dimensions=""
+        data-description="TBA">
+        <img class="d-none d-sm-block" src="/img/entai/20-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/20.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/21.jpg"
+        data-title="-------------191-------------"
+        data-mediums="1869"
+        data-dimensions=""
+        data-description="A Walk in the Forest">
+        <img class="d-none d-sm-block" src="/img/entai/21-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/21.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/22.jpg"
+        data-title="-------------857-------------"
+        data-mediums="1869"
+        data-dimensions=""
+        data-description="Promenading in the Forest">
+        <img class="d-none d-sm-block" src="/img/entai/22-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/22.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/23.jpg"
+        data-title="-------------1433-------------"
+        data-mediums="1878"
+        data-dimensions=""
+        data-description="The Field of Wheat">
+        <img class="d-none d-sm-block" src="/img/entai/23-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/23.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/24.jpg"
+        data-title="-------------331-------------"
+        data-mediums="1887"
+        data-dimensions=""
+        data-description="Oak Grove">
+        <img class="d-none d-sm-block" src="/img/entai/24-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/24.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/25.jpg"
+        data-title="-------------719-------------"
+        data-mediums="1889"
+        data-dimensions=""
+        data-description="Morning in a Pine Forest">
+        <img class="d-none d-sm-block" src="/img/entai/25-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/25.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/26.jpg"
+        data-title="-------------563-------------"
+        data-mediums="1891"
+        data-dimensions=""
+        data-description="In the Wild North">
+        <img class="d-none d-sm-block" src="/img/entai/26-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/26.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/27.jpg"
+        data-title="-------------97-------------"
+        data-mediums="1891"
+        data-dimensions=""
+        data-description="Countess Mordvinov&#39;s Forest">
+        <img class="d-none d-sm-block" src="/img/entai/27-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/27.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/28.jpg"
+        data-title="-------------5-------------"
+        data-mediums="1897"
+        data-dimensions=""
+        data-description="Pond in a Old Park">
+        <img class="d-none d-sm-block" src="/img/entai/28-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/28.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/29.jpg"
+        data-title="-------------23-------------"
+        data-mediums="1898"
+        data-dimensions=""
+        data-description="Woods behind the fence">
+        <img class="d-none d-sm-block" src="/img/entai/29-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/29.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/30.jpg"
+        data-title="-------------29-------------"
+        data-mediums="1898"
+        data-dimensions=""
+        data-description="Mast Tree Grove">
+        <img class="d-none d-sm-block" src="/img/entai/30-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/30.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/31.jpg"
+        data-title="-------------199-------------"
+        data-mediums="1897"
+        data-dimensions=""
+        data-description="Misty Morning">
+        <img class="d-none d-sm-block" src="/img/entai/31-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/31.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/32.jpg"
+        data-title="-------------283-------------"
+        data-mediums="1897"
+        data-dimensions=""
+        data-description="Mill in the forest. Preobrazhenskoe">
+        <img class="d-none d-sm-block" src="/img/entai/32-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/32.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/33.jpg"
+        data-title="-------------109-------------"
+        data-mediums="1897"
+        data-dimensions=""
+        data-description="In the park">
+        <img class="d-none d-sm-block" src="/img/entai/33-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/33.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/34.jpg"
+        data-title="-------------2089-------------"
+        data-mediums="1897"
+        data-dimensions=""
+        data-description="Forest Glade (Glade)">
+        <img class="d-none d-sm-block" src="/img/entai/34-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/34.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/35.jpg"
+        data-title="-------------349-------------"
+        data-mediums="1863"
+        data-dimensions=""
+        data-description="Beech Forest in Switzerland">
+        <img class="d-none d-sm-block" src="/img/entai/35-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/35.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/36.jpg"
+        data-title="-------------47-------------"
+        data-mediums="1863"
+        data-dimensions=""
+        data-description="Cows under the oak">
+        <img class="d-none d-sm-block" src="/img/entai/36-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/36.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/37.jpg"
+        data-title="-------------509-------------"
+        data-mediums="1863"
+        data-dimensions=""
+        data-description="Herd of sheep under an oak tree">
+        <img class="d-none d-sm-block" src="/img/entai/37-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/37.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/38.jpg"
+        data-title="-------------151-------------"
+        data-mediums="1864"
+        data-dimensions=""
+        data-description="Herd in the forest">
+        <img class="d-none d-sm-block" src="/img/entai/38-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/38.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/39.jpg"
+        data-title="-------------1933-------------"
+        data-mediums="1865"
+        data-dimensions=""
+        data-description="Herd of sheep in the forest">
+        <img class="d-none d-sm-block" src="/img/entai/39-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/39.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/40.jpg"
+        data-title="-------------251-------------"
+        data-mediums="1864-1865"
+        data-dimensions=""
+        data-description="In the vicinity of Düsseldorf ">
+        <img class="d-none d-sm-block" src="/img/entai/40-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/40.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/41.jpg"
+        data-title="-------------7-------------"
+        data-mediums="1863-1865"
+        data-dimensions=""
+        data-description="Last Rays">
+        <img class="d-none d-sm-block" src="/img/entai/41-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/41.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/42.jpg"
+        data-title="-------------1289-------------"
+        data-mediums="1865"
+        data-dimensions=""
+        data-description="Stones in the a forest">
+        <img class="d-none d-sm-block" src="/img/entai/42-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/42.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/43.jpg"
+        data-title="-------------191-------------"
+        data-mediums="1865"
+        data-dimensions=""
+        data-description="The Teutoburg Forest ">
+        <img class="d-none d-sm-block" src="/img/entai/43-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/43.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/44.jpg"
+        data-title="-------------857-------------"
+        data-mediums="1866"
+        data-dimensions=""
+        data-description="Edge of the Forest">
+        <img class="d-none d-sm-block" src="/img/entai/44-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/44.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/45.jpg"
+        data-title="-------------1433-------------"
+        data-mediums="1866"
+        data-dimensions=""
+        data-description="Pine forest">
+        <img class="d-none d-sm-block" src="/img/entai/45-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/45.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/46.jpg"
+        data-title="-------------331-------------"
+        data-mediums="1866"
+        data-dimensions=""
+        data-description="The road in the Rye">
+        <img class="d-none d-sm-block" src="/img/entai/46-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/46.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/47.jpg"
+        data-title="-------------719-------------"
+        data-mediums="1866"
+        data-dimensions=""
+        data-description="Trees in the field. Bratsevo">
+        <img class="d-none d-sm-block" src="/img/entai/47-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/47.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/48.jpg"
+        data-title="-------------563-------------"
+        data-mediums="1867"
+        data-dimensions=""
+        data-description="At the church fence. Balaam">
+        <img class="d-none d-sm-block" src="/img/entai/48-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/48.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/49.jpg"
+        data-title="-------------97-------------"
+        data-mediums="1855"
+        data-dimensions=""
+        data-description="Pine on the cliff">
+        <img class="d-none d-sm-block" src="/img/entai/49-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/49.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/entai/50.jpg"
+        data-title="-------------5-------------"
+        data-mediums="1857"
+        data-dimensions=""
+        data-description="Oak on the shore of the Gulf of Finland">
+        <img class="d-none d-sm-block" src="/img/entai/50-thumb.jpg" alt="Trees nature">
+        <img class="d-block d-sm-none" src="/img/entai/50.jpg" alt="Trees nature">
+      </a>
+    </li>
+  
+</ul>
+
+
+
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="/js/grid.js?v=0.3.4"></script>
+        <script>
+            $(function() {
+                Grid.init();
+            });
+        </script>
+    <footer class="footer">
+        <p class="text-muted ui center aligned header">Copyright &#xA9; 2021 Antranakties.</p>
+    </footer>
+
+</body>
+
+
+</html>
